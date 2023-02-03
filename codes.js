@@ -36,3 +36,6 @@ button.addEventListener('click', () => {
         result.innerHTML = '';
     }
 });
+function reload() {
+    window.location.reload()
+}
